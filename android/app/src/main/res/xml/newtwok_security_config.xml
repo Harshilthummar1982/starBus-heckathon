@@ -1,0 +1,12 @@
+<newtwok_security_config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>    
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.98.103</domain>
+    </domain-config>
+</newtwok_security_config>
+
+<!-- 192.168.29.194 -->
